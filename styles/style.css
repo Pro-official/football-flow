@@ -1,0 +1,323 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------------------------------------------------------------------------------------------------------
+Global 
+------------------------------------------------------------------------------------------------------------- */
+
+h1 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: bold;
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0826;;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #2D25A0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+/* -------------------------------------------------------------------------------------------------------------
+Navbar 
+------------------------------------------------------------------------------------------------------------- */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    margin-top: 43px;
+    margin-left: 156px;
+}
+.nav-links .fas {
+    display: none;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 36px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-button {
+    margin-right: 143px;
+    margin-top: 42px;
+}
+
+.nav-button .fas {
+    color: white;
+    height: 24px;
+    width: 24px;
+}
+
+.nav-button a {
+    text-decoration: none;
+    font: 16px;
+    color: white;
+    font-weight: 500;
+    padding: 10px 24px;
+    background-color: #e02c6d;
+    font-family: 'poppins', sans-serif;
+}
+
+.nav-button:hover {
+    transform: scaleX(1.2);
+    transition: transform .5s ease;
+}
+
+/* -------------------------------------------------------------------------------------------------------------
+Cover
+------------------------------------------------------------------------------------------------------------- */
+
+.cover-image img {
+    width: 556.01px;
+    height: 438px;
+    margin-right: 140.99px;
+    margin-top: 49px;
+    margin-bottom: 86px;
+}
+
+.cover-heading{
+    margin-top: 121px;
+    margin-left: 158px;
+}
+
+.button {
+    margin-top: 37px;
+    display: flex;
+    align-items: center;
+    margin-right: 102px;
+}
+.cover {
+    width: 50%;
+}
+
+.button a {
+    padding: 10px 24px;
+    background-color: #e02c6d;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 8px;
+    margin-bottom: 169px;
+}
+
+.cover-heading a:hover {
+    transform: scaleX(1.2);
+    transition: transform .5s ease;
+}
+
+/* -------------------------------------------------------------------------------------------------------------
+players
+------------------------------------------------------------------------------------------------------------- */
+
+.contain-players {
+    margin-top: 70px;
+    margin-bottom: 165px;
+}
+
+.great-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+
+.players {
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 426px;
+    width: 300px;
+    margin: 15px;
+}
+
+.player-image img {
+    width: 100%;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------
+Watch those great games.... 
+------------------------------------------------------------------------------------------------------------- */
+
+.watch{
+    width: 50%;
+}
+
+.watch-heading {
+    margin-left: 182px;
+    margin-right: 66px;
+    width: 469px;
+    height: 120px;
+    position: relative;
+    bottom: 100px;
+}
+
+.watch-image img {
+    width: 567px;
+    height: 427px;
+    margin-right: 156px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------
+Upcoming Matches!  
+------------------------------------------------------------------------------------------------------------- */
+.upcoming-games {
+    margin-top: 100px;
+}
+.upcoming-games h1 {
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    font-family: 'Poppins', sans-serif;
+}
+.upcoming-games p {
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+.games {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    border-radius: 20px;
+    grid-column-gap: 5px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    border: 5px solid lightgray; 
+    border-radius: 20px;
+    padding: 30px 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.game-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.different-color {
+    color: #e02c6d;
+}
+
+.game-opponents h3 {
+    text-align: center;
+}
+
+.venue-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.venue-date span {
+    font-size: 14px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------
+Latest News 
+------------------------------------------------------------------------------------------------------------- */
+
+.latest-news{
+    margin-top: 100px;
+}
+.latest-news h1 {
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    font-family: 'Poppins', sans-serif;
+}
+
+.latest-news p {
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+
+.news-writing {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-column-gap: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.news-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------
+Footer 
+------------------------------------------------------------------------------------------------------------- */
+
+.footer {
+    margin-top: 158px;
+    margin-bottom: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-image img {
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.social-icons .fab {
+    margin-right: 14px;
+    height: 32px;
+    width: 32px;
+}

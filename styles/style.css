@@ -165,8 +165,21 @@ players
     margin: 15px;
 }
 
+.player:hover{
+    transform: scale(1.1);
+    transition: transform .5s ease;
+}
+
 .player-image img {
     width: 100%;
+}
+
+.player-details h3 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #18191F;
 }
 
 
@@ -198,7 +211,7 @@ Watch those great games....
 Upcoming Matches!  
 ------------------------------------------------------------------------------------------------------------- */
 .upcoming-games {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .upcoming-games h1 {
     margin: 0;
@@ -300,8 +313,15 @@ Latest News
 }
 
 .news-image img {
-    width: 80%;
+    width: 90%;
+    margin-left: 5%;
     border-radius: 20px;
+}
+
+.news-details h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #18191F;;
 }
 
 /* -------------------------------------------------------------------------------------------------------------

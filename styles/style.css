@@ -286,10 +286,14 @@ Latest News
     align-items: center;
     grid-column-gap: 40px;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 100px;
+}
+
+.news {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
-    padding: 20px 20px;
+    border: 5px solid lightgray; 
     border-radius: 20px;
+    padding: 30px 30px;
 }
 
 .news-image img {
@@ -320,4 +324,132 @@ Footer
     margin-right: 14px;
     height: 32px;
     width: 32px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------
+For mobile devices 
+------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 650px) {
+    h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h2 {
+        margin: 0;
+        font-size: 30px;
+    }
+    .navbar {
+        display: none;
+    }
+    .cover-heading {
+        margin-top: 112px;
+        margin-left: 16px;
+    }
+    .button {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        margin-left: 19px;
+    }
+    .cover-image img {
+        width: 100%;
+    }
+    .button a {
+        margin-bottom: 0;
+    }
+    .cover-heading a:hover {
+        transform: scaleX(1.2);
+        transition: transform .5s ease;
+    }
+    .cover {
+        width: 100%;
+    }
+
+    .contain-players {
+        margin-top: 47px;
+        margin-bottom: 60px;
+    }
+
+    .great-players {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-row-gap: 24px;
+    }
+    .players {
+        width: 330px;
+        height: 474px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    }
+    .watch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .watch img {
+        width: 328px;
+        height: 248px;
+    }
+    .watch-heading {
+        margin-top: 30px;
+        margin-left: 15px;
+        width: 329px;
+        height: 299px;
+    }
+    .upcoming-games, .latest-news {
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+    .upcoming-games, .latest-news h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .upcoming-games, .latest-news p {
+        font-size: 16px;
+    }
+    .news-writing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .games {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        margin-top: 158px;
+        margin-bottom: 63px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-image img {
+        width: 150px;
+        height: 63px;
+    }
+
+    .social-icons .fab {
+        margin-right: 21.47px;
+        Width: 17.07px; 
+        Height: 17.07px; 
+    }
+    .copyright p {
+        font-size: 18px;
+    }
 }
